@@ -38,7 +38,7 @@
         <h1>Contact Me</h1>
         <form onsubmit="return validate()">
             <div class="mb-3">
-                <label for="name" class="form-label">Name:</label>
+                <label for="name" class="form-label">Name:<span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="name">
             </div>
             <div class="mb-3">
@@ -50,7 +50,7 @@
                 <input type="number" class="form-control" id="cell" min="0">
             </div>
             <div class="mb-3">
-                <label class="form-label">Preferred Contact Method</label>
+                <label class="form-label">Preferred Contact Method:<span class="text-danger">*</span></label>
                 <div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="contactMethod" id="emailContact" value="email">
