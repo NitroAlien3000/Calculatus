@@ -41,3 +41,7 @@ form {
     object-fit: cover;
     height: 400px;
 }
+
+footer {
+    color: #e0f7fa;
+}
